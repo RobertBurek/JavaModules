@@ -5,7 +5,9 @@ module pl.robworkjava.SupplyModule {
 
     requires java.logging;
 
+
     exports pl.robworkjava.supply;
+
 
     // poniższy exports jest konieczny aby można było używać metod z tego pakietu
     // w innym razie metody w tym pakiecie mimo public nie są widoczne w main
